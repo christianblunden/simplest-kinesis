@@ -1,0 +1,7 @@
+{:paths ["src" "resources"]
+ :deps {
+        ;; software.amazon.awssdk/kinesis {:mvn/version "2.17.75"}
+        software.amazon.kinesis/amazon-kinesis-client {:mvn/version "2.3.8", :exclusions [commons-logging/commons-logging]}
+        org.clojure/tools.logging {:mvn/version "1.1.0"}
+        ch.qos.logback/logback-classic {:mvn/version "1.2.6"}
+        metosin/jsonista {:mvn/version "0.3.4"}}}
